@@ -20,5 +20,24 @@ body {
 }
 .country-list {
   list-style: none;
-  /* border: 2px solid aquamarine; */
+}
+.title-country {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.capital-country {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: gray;
+}
+.capital-data,
+.data-value,
+.language-country {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
