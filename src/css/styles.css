@@ -10,19 +10,32 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background: rgba(231, 231, 123, 0.44);
 }
-
+.list__item {
+    border-radius: 6px;
+    background: rgb(249, 223, 189);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 0;
+    padding: 10px;
+    transition: background-color .5s;
+    display: flex;
+    border: black solid 2px;
+    box-shadow: 0 4px 6px rgba(20, 19, 19, 0.1);
+}
 #search-box {
   font: inherit;
-  padding: 8px;
+  padding: 12px;
   max-width: 500px;
   margin-bottom: 16px;
-  border: none;
+  /* border: none; */
   border-radius: 5px;
   box-shadow:
-            0px 1px 6px rgba(46, 47, 66, 0.08),
-            0px 1px 1px rgba(46, 47, 66, 0.16),
-            0px 2px 1px rgba(46, 47, 66, 0.08);
+            0px 1px 6px rgba(66, 72, 189, 0.08),
+            0px 1px 1px rgba(30, 30, 35, 0.16),
+            0px 2px 1px rgba(46, 47, 53, 0.08);
 
 }
 .country-list {
