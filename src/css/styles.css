@@ -25,14 +25,14 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #000000;
+  color: black;
 }
 .capital-country {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: gray;
+  color: rgb(22, 16, 16);
 }
 .capital-data,
 .data-value,
@@ -40,4 +40,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: navy;
 }
