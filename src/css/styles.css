@@ -7,10 +7,10 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #fafafa; */
+  background-color: #ede4e4;
   color: #212121;
   line-height: 1.5;
-  background-color: rgba(231, 231, 123, 0.44);
+  background: rgba(235, 158, 205, 0.44);
 }
 .list__item {
     border-radius: 6px;
