@@ -42,9 +42,9 @@ function multipleCountriesList(countries) {
 }
 
 function oneCountry({ flags, name, capital, population, languages }) {
-    const listMarkup = `<div class="list__item"><img src="${
+    const listMarkup = `<div class="list__item"><img class=""flag-img" src="${
     flags.svg
-  }" width="100" height="30">
+  }" width="50" height="30">
       <h2 class="title-country">${name.common}</h2>
       <p class="capital-country"><span class="capital-data">Capital: </span>${capital}</p>
       <p class="capital-country"><span class="data-value">Population: </span>${population}</p>
