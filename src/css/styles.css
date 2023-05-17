@@ -22,7 +22,7 @@ body {
     padding: 10px;
     transition: background-color .5s;
     display: flex;
-    border: black solid 2px;
+    border: 2px solid black;
     box-shadow: 0 4px 6px rgba(20, 19, 19, 0.1);
 }
 #search-box {
